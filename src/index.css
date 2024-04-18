@@ -1,7 +1,7 @@
 
 
-.titulo {
-    color: green;
+.ubuntu {
+
     font-family: "Ubuntu" !important;
 }
 
@@ -13,9 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ubuntu {
-  font-family: "Ubuntu" !important;
-}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

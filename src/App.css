@@ -85,3 +85,22 @@
     box-shadow: 0 0 20px black;
 }
 
+.btnOut{
+    background-color: rgb(68, 203, 83);
+    border-radius: 30px;
+    border-color: black;
+    padding: 8px;
+    border-width: 0px;
+    color: white;
+    margin-left: 50px;
+    width: 60%;
+    padding: 15px;
+
+}
+
+.btnOut:hover{
+    background-color: green;
+    outline: 1px solid  black;
+    box-shadow: 0 0 20px green;
+}
+

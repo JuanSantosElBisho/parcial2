@@ -1,10 +1,9 @@
 import React, {useState} from 'react';
-
-
 import Imageprofile from '../assents/profile.jpg'
-
 import appFirebase from '../credenciales';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
+
+
 const auth = getAuth (appFirebase);
 
 const Login = () => {
@@ -40,7 +39,7 @@ const Login = () => {
             <div className= 'container'> 
             
                 <div className='texto-arriba'>Bienvenido a <br/> 
-                <span className="destacado">Rickoso club </span> 
+                <span className="destacado">PONTE RICKOSO CLUB</span> 
                 <br/> Donde encontraras los mejores personajes. 
                 <br/>  Inicia sesion y ponte Rickoso.</div>
                     <div className='cuadro'>
@@ -51,7 +50,13 @@ const Login = () => {
                                 <input type="password" placeholder="Ingresa tu contraseña" className='cajatexto'id='password'/>
                                 <button className= "btnform">{registrando ? "Registrate" : "Inicia Sesion" }</button>
                             </form>
-                            <h4 className="texto">{registrando ? "Si ya tienes cuenta" : "No tienes cuenta"} <button className='btnSwitch' onClick = {() => setRegistrando(!registrando)}>{registrando ? "Inicia sesion" : "Registrate"}</button></h4>
+                            <h4 className="texto">
+    {registrando ? "Si ya tienes cuenta entonces" : "No tienes cuenta?"}
+    <button className='btnSwitch' onClick={() => setRegistrando(!registrando)}>
+        {registrando ? "Inicia sesión" : "Regístrate"}
+    </button>
+</h4>
+
                         </div>
                     </div>
                 </div>
