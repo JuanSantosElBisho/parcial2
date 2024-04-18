@@ -5,14 +5,11 @@ import appFirebase from '../src/credenciales';
 import Login from '../src/components/Login';
 import Home from '../src/components/Home';
 import './App.css';
-import logo from './logo.svg';
 
 const auth = getAuth(appFirebase);
 
 function App() {
-
   const [usuario, setUsuario] = useState(null);
-
   onAuthStateChanged(auth, (usuarioFirebase)=> {
     if (usuarioFirebase) {
       setUsuario(usuarioFirebase)
@@ -21,13 +18,9 @@ function App() {
       setUsuario(null)
     }
   })
-
   return (
     <div>
-
       {usuario ? <Home correoUsuario = {usuario.email} /> : <Login/> }
-
-
     </div>
   );
 }

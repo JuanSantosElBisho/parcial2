@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
-import Imagen from '../assents/loguea.png';
-import Imageprofile from '../assents/foto_bicho.jpg'
+
+import Imageprofile from '../assents/profile.jpg'
 
 import appFirebase from '../credenciales';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
@@ -38,10 +38,11 @@ const Login = () => {
     return (
         
             <div className= 'container'> 
+            <div class="fondo-pantalla"></div>
                 <div className='texto-arriba'>Bienvenido a <br/> 
-                <span class="destacado">CR7 CLUB </span> 
-                <br/> Donde encontraras los mejores articulos. 
-                <br/>  Inicia sesion y encuentra lo que quieras.</div>
+                <span class="destacado">Rickoso club </span> 
+                <br/> Donde encontraras los mejores personajes. 
+                <br/>  Inicia sesion y ponte Rickoso.</div>
                     <div className='cuadro'>
                         <div className="card card-body shadow-lg">
                             <img src={Imageprofile} alt=""className='estilo-profile' />

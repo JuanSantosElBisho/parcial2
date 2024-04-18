@@ -1,3 +1,6 @@
+body {
+    background-color: black; /* Establece el color de fondo a negro */
+  }
 .cuadro{
     display: flex;
     align-items: center;
@@ -11,13 +14,13 @@
 .texto-arriba {
     text-align: center;
     font-size: 30px;
-    color: black;
+    color: white;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 40px; /* Ajusta el margen inferior según sea necesario */
   }
 
   .destacado {
-    color: red; /* Cambia el color según tus preferencias */
+    color: green; /* Cambia el color según tus preferencias */
   }
 
 .estilo-profile{
@@ -40,12 +43,12 @@
 }
 
 .cajatexto:focus{
-    outline: 1px solid  rgb(194, 31, 31);
-    box-shadow: 0 0 20px rgb(194, 31, 31);
+    outline: 1px solid  rgb(31, 194, 36);
+    box-shadow: 0 0 20px rgb(31, 194, 36);
 }
 
 .btnform{ 
-    background-color: rgb(231, 114, 114);
+    background-color: rgb(88, 188, 123);
     border-radius: 30px;
     border-color: slategray;
     width: 100%;
@@ -56,9 +59,9 @@
 }
 
 .btnform:hover{
-    background-color: rgb(194, 31, 31);
-    outline: 1px solid  rgb(194, 31, 31);
-    box-shadow: 0 0 20px rgb(194, 31, 31);
+    background-color: rgb(31, 194, 36);
+    outline: 1px solid  rgb(31, 194, 36);
+    box-shadow: 0 0 20px rgb(31, 194, 36);
 }
 
 .texto{
@@ -74,7 +77,6 @@
     border-color: slategray;
     padding: 8px;
     border-width: 0px;
-    
     color: white;
 
 }
