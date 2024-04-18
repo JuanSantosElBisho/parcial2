@@ -38,9 +38,9 @@ const Login = () => {
     return (
         
             <div className= 'container'> 
-            <div class="fondo-pantalla"></div>
+            
                 <div className='texto-arriba'>Bienvenido a <br/> 
-                <span class="destacado">Rickoso club </span> 
+                <span className="destacado">Rickoso club </span> 
                 <br/> Donde encontraras los mejores personajes. 
                 <br/>  Inicia sesion y ponte Rickoso.</div>
                     <div className='cuadro'>
